@@ -1,0 +1,25 @@
+.center{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.table{
+    flex: 0 0 100%;
+    border-collapse: collapse;
+    height: 40px;
+    
+}
+
+table,th,td{
+    border:1px solid gray;
+}
+
+tr{
+    text-align: center;
+}
+
+th{
+    width: 15%;
+}
